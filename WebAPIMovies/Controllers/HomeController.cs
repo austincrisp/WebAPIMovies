@@ -14,5 +14,26 @@ namespace WebAPIMovies.Controllers
 
             return View();
         }
+
+        public ActionResult Movie()
+        {
+            ViewBag.Title = "Movie List";
+
+            return View();
+        }
+
+        public ActionResult Review()
+        {
+            ViewBag.Title = "Review List";
+
+            return View();
+        }
+
+        public ActionResult Person()
+        {
+            ViewBag.Title = "User List";
+
+            return View();
+        }
     }
 }
